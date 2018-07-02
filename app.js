@@ -4,12 +4,19 @@ Sigue los pasos a continuación para que completes el programa:
 
 Retornar el numero mayor entre A, B y C
 Input: A = 10, B = 30, C = 5 Output: 30*/
-function mayorQue (num1, num2, num3){ 
-    if ( num1 > num2 && num1 > num3) {
-        // num1 mayor que num2 y num3
-       }else if (num 2 > num3){
-        // num2 mas grande
-       }else{
-        // num3 seria el mas grande
-       }
- }
+
+function mayorQue (A, B, C){ 
+    
+    if(A>=B && A>=C){ // se condiciona si A es mayor que B y C
+    console.log(A);
+
+	}else if(B>=A && B>=C){ //se condiciona si B es mayor que A y C
+    console.log(B);
+    
+    }else{ 
+    console.log(C); //si ninguna de las 2 condiciones es verdadera, C es mayor
+    }
+
+}
+
+mayorQue(10,30,5);// se invoca la funcion se espera 30 sea el num mayor
